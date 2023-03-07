@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container p-5">
+    <div class="row">
+        <aside class="col-12 col-md-6">
+            <h2 class ="text-dark">Sign In</h2>    
+            {% include 'forms.html' %}
+        </aside>
+    </div>
+    <style>
+        body {
+          background-image: url('../../static/images/background.jpeg');
+        }
+        </style>
+</main>
+{% endblock %}
